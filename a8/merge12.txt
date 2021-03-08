@@ -1,0 +1,5 @@
+/*compilation error. Also note that the problem in your for loop is that it doesn't have an ending condition, 
+because the *pitem=pq->rear->item is an assignment and not actually a condition. So your code for printing wouldn't work even if it compiled. 
+Also it's not good to check with the items because it might happen that two nodes have the same itemC:\Users\badr-\Desktop\studies\sem1\C,C++\a8> cd "c:\Users\badr-\Desktop\studies\sem1\C,C++\a8\" ; 
+if ($?) { gcc a8_5.c -o a8_5 } ; if ($?) { .\a8_5 } PS C:\Users\badr-\Desktop\studies\sem1\C,C++\a8> 
+cd "c:\Users\badr-\Desktop\studies\sem1\C,C++*/

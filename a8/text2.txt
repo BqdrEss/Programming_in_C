@@ -1,0 +1,3 @@
+C:\Users\badr-\Desktop\studies\sem1\C,C++\a8> cd "c:\Users\badr-\Desktop\studies\sem1\C,C++\a8\" ; 
+if ($?) { gcc a8_5.c -o a8_5 } ; if ($?) { .\a8_5 } PS C:\Users\badr-\Desktop\studies\sem1\C,C++\a8> 
+cd "c:\Users\badr-\Desktop\studies\sem1\C,C++*/
