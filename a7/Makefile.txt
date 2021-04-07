@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = - Wall
+
+OBJ = linked_list .o a7_3 .o
+all : a7_3
+
+a7_3 : $( OBJ )
+$( CC ) $( CFLAGS ) -o a7_3 $( OBJ )
+
+a7_3 .o: linked_list . h a7_3 . c
+linked_list .o: linked_list .h linked_list .c
+
+clean :
+rm -f a7_3 *. o
