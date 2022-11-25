@@ -6,8 +6,7 @@ Bessefiany@jacobs-university.de
 */
 #include <stdio.h>
 int main () {
-    int n,i=1;
-    int h=24*i;
+    int n, i=1, h=24*i;
     scanf("%d",&n);
  if (n==0){return 0;}
  else{
@@ -15,5 +14,6 @@ int main () {
          printf("%d days = %d hours",i,h);
          i++;
      }
+ }
 return 0;
- } }
+}
